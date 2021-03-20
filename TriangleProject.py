@@ -19,7 +19,7 @@ secondSide = float(input("Enter the length of side 2: "))
 thirdSide = float(input("Enter the length of side 3: "))
 
 # Compute the triangle
-if firstSide * firstSide == secondSide * secondSide + thirdSide * thirdSide
+if firstSide * firstSide == secondSide * secondSide + thirdSide * thirdSide:
     print("Triangle is a right triangle")
 else:
     print("Triangle is not a right triangle")
